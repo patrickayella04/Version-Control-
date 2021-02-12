@@ -12,7 +12,7 @@ html {
 .body {
   
   display:grid;
-  grid-template-rows: 5fr 50vh auto 1fr;
+  grid-template-rows: 5fr 50vh auto 3fr;
   /* grid-template-columns: 2fr 2fr; */
   grid-template-areas: 
   "nav"
@@ -118,9 +118,40 @@ a {
   text-decoration: none;
 }
 nav .logo {
+  cursor: pointer;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
+  background-color: $brandColor;
+  border: none;
+  outline: none;
+  padding: 10px;
+  
+ 
+  position: relative;
+  
+}
+nav .logo::after  {
+  content: '';
+  position: absolute;
+  background-color: rgba(0,0,0,0.1);
+  
+  transition: transform 200ms ease-in;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left:0;
+}
+nav .logo::after {
+  transform: scaleX(0);
+  transform-origin: right;
+}
+nav .logo:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+nav .logo:hover {
+  color: #ffffff;
 }
 nav .nav-links {
   display:flex;
@@ -132,9 +163,32 @@ nav .nav-links a {
   font-weight: normal;
   color: $brandTitlesLinks;
   cursor: pointer;
+  position: relative;
 }
-nav .nav-links a:hover {
-  text-decoration: none;
+nav .nav-links a ::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background:black;
+    // visibility: hidden;
+    transform: scale(0);
+    transition: transform 250ms ease-in;
+    transform-origin: right;
+    
+}
+nav .nav-links a:hover ::before {
+  
+  transform: scale(1);
+  transform-origin: left;
+}
+nav .nav-links a :hover {
+  color: rgba(0,0,0,0.6);
+}
+.current {
+  color: rgba(0,0,0,0.6);
 }
 nav .burger {
   font-size: 28px;
