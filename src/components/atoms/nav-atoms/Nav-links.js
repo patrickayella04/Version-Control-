@@ -20,6 +20,11 @@ function NavLinks() {
                 <Link onClick={() => setOpen(!open)}  to='/about'  >
                     <li>Blog</li> 
                 </Link> 
+
+                <Link onClick={() => setOpen(!open)} to='/projects' >
+
+                    <li>Projects</li>
+                </Link>              
                     
                 
                 
@@ -27,6 +32,8 @@ function NavLinks() {
 
                     <li>Contact</li>
                 </Link>               
+
+                
         </ul> 
         
         <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>

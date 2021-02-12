@@ -12,7 +12,7 @@ function HomeShowArea() {
     return (
          
      <> 
-        <div className="container">
+        <div className="container home-show-areas">
             
                     <HomeShowcase />
                 
