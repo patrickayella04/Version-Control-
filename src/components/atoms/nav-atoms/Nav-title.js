@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 
 
 function NavTitle() {
+    const[open, setOpen] = useState(false)
     return (
         
-        <div className="logo">See it believe it</div>
+        <Link onClick={() => setOpen(!open)} to='/'>
+               <button className="logo">See it believe it</button>
+                </Link>
+        
     
     );
 }

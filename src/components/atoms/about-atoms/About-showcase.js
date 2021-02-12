@@ -9,7 +9,7 @@ function AboutShowase() {
     
     return (
         
-        <div className="big-show about-show">
+        <div className="big-show ">
                 <h1>Learning more <br/> &amp; The  Mission To Elevate</h1>
         </div>
 

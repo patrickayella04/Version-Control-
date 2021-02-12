@@ -6,8 +6,8 @@ function HomeShowcase() {
     
     return (
     
-        <div className="big-show">
-                    <h1>Invent <br/>Onwards &amp; Upwards Inovation</h1>
+        <div className="big-show home-show">
+                    <h1>Follow my blog posts about web development!</h1>
             </div>
     
     );

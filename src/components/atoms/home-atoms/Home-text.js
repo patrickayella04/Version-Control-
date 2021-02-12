@@ -6,17 +6,12 @@ function HomeText() {
     
     return (
         
-        <div className="text-area">
+        <div className="text-area mobile-about">
 
             
-            <h2>Follow my journey as I document my learning and challenges in web development!</h2>
-            <br/>
+            
             <ul className="vlog-list">
-            <li>
-                    <a href="https://githubfinder0101.netlify.app">
-                        Study Project in React!  </a> <br/>
-                        Github Finder using useContext and useEffect hooks.
-                </li>
+            
             <li>
                     <a href="https://youtu.be/0sexvvpj6Rs">
                         Rational Programming Ep 9  </a> <br/>

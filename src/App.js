@@ -6,6 +6,7 @@ import ContactPage from './components/pages/ContactPage';
 
 import HomePage from './components/pages/HomePage';
 import ReactGa from 'react-ga'; // Google Analytics
+import ProjectPage from './components/pages/ProjectPage';
 
 // import './components/atoms/colors/_index.scss';
 
@@ -32,8 +33,10 @@ function App() {
         <Switch>
         
           <Route path="/" exact component = {AboutPage} />
-          <Route path="/about" component = {HomePage} />
-          <Route path="/contact" component = {ContactPage} />
+          <Route path="/about" component={HomePage} />
+          <Route path="/projects" component={ProjectPage} />
+          <Route path="/contact" component={ContactPage} />
+          
         </Switch>
       </h1>
       
