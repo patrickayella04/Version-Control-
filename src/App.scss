@@ -67,7 +67,7 @@ html {
   grid-area: info;
   color:$brandtext;
   font-size: 1em;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:cursive;
   font-weight: lighter ;
   padding: 40px;
   padding-top: 10px;
@@ -351,22 +351,22 @@ a.github {
   .about-container {
     height: 50vh;
   }
-  .about-text-area2 {
-    position: relative;
-    bottom: 130%;
-    height: min-content;
-    height: 100px;
+  // .about-text-area2 {
+  //   // position: relative;
+  //   // bottom: 130%;
+  //   // height: min-content;
+  //   // height: 100px;
 
-  }
+  // }
   
-  .project-container {
-    height: 40vh;
-  }
-  .mobile-about {
-    padding: 0;
-    position: relative;
-    top: -100px;
-  }
+  // .project-container {
+  //   height: 40vh;
+  // }
+  // .mobile-about {
+  //   // padding: 0;
+  //   // position: relative;
+  //   // top: -100px;
+  // }
 
   // .container-about {
   //     position: relative;
