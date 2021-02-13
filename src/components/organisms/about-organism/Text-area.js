@@ -8,8 +8,11 @@ function AboutTextArea() {
     return (
         
         <>
-        <div className="text-area">
-                   <AboutText />
+            <div className="text-area about-text-area">
+                <div className='about-text-area2'>
+                <AboutText />
+                </div>
+                  
             </div>
         </>
                  
