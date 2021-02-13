@@ -12,8 +12,8 @@ html {
 .body {
   
   display:grid;
-  grid-template-rows: 6fr 60vh auto 4fr;
-  /* grid-template-columns: 2fr 2fr; */
+  grid-template-rows: 1fr 70vh auto 1fr;
+  
   grid-template-areas: 
   "nav"
   "main"
@@ -80,6 +80,7 @@ html {
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
+  font-size: 0.9em;
 }
 .footer-area {
   grid-area: foot;
@@ -203,8 +204,10 @@ nav .nav-links a:hover ::before {
 nav .nav-links a :hover {
   color: rgba(0,0,0,0.6);
 }
-.current {
-  color: rgba(0,0,0,0.6);
+.navbar__link--active {
+  background-color: rgba(100, 7, 46, 0.6);
+  padding: 5px;
+ 
 }
 nav .burger {
   font-size: 28px;
@@ -343,13 +346,27 @@ a.github {
     padding: 10px;
   }
   .home-show-areas {
+    height: 40vh;
+  }
+  .about-container {
     height: 50vh;
   }
-  // .mobile-about {
-  //   padding: 0;
-  //   position: relative;
-  //   top: -100px;
-  // }
+  .about-text-area2 {
+    position: relative;
+    bottom: 130%;
+    height: min-content;
+    height: 100px;
+
+  }
+  
+  .project-container {
+    height: 40vh;
+  }
+  .mobile-about {
+    padding: 0;
+    position: relative;
+    top: -100px;
+  }
 
   // .container-about {
   //     position: relative;

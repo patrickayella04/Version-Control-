@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
+
+
 
 
 
@@ -8,7 +11,8 @@ function NavLinks() {
     const [open, setOpen] = useState(false);
     
     
-
+    
+    
     
     return (
         
@@ -16,22 +20,24 @@ function NavLinks() {
             <ul className="nav-links"style={{ transform: open ? "translateX(0px)" : "" }}>
                 
                 
+                <NavLink activeClassName="navbar__link--active" onClick={() => setOpen(!open)} exact to='/about' >
+                    <li   >
+                         Blog
+                        </li> 
+                </NavLink>  
                 
-                <Link onClick={() => setOpen(!open)}  to='/about'  >
-                    <li>Blog</li> 
-                </Link> 
 
-                <Link onClick={() => setOpen(!open)} to='/projects' >
+                <NavLink activeClassName="navbar__link--active" onClick={() => setOpen(!open)} to='/projects'  >
 
                     <li>Projects</li>
-                </Link>              
+                </NavLink>              
                     
                 
                 
-                <Link onClick={() => setOpen(!open)} to='/contact' >
+                <NavLink activeClassName="navbar__link--active" onClick={() => setOpen(!open)} to='/contact'  >
 
                     <li>Contact</li>
-                </Link>               
+                </NavLink>               
 
                 
         </ul> 

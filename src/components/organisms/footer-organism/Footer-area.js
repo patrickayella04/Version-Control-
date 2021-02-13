@@ -9,7 +9,7 @@ function FooterArea() {
     return (
         
      <>
-        <div className="footer-area">
+        <div className="footer-area about-footer">
 
             <Footer />
         
