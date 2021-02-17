@@ -9,7 +9,9 @@ function AboutText() {
         <div className="text-area">
             <div className="container-about">
                 <p className="text story-text">
-                I'm a front-end web developer. I love to build things, encounter problems to solve, and collaborate ideas with others.
+                I'm a front-end web developer. I love to build things, solve problems, and collaborate ideas with others. Coding websites that have great functionality and scalability is key in creating better products. I enjoy finding new and reliable ways to improve my knowledge through continuous study and practice. 
+                    
+                
                     {/* My dream is to become a web developer and build fantastic websites! I started learning how to code from scratch on December 13th 2019, when I spent half my savings on a new laptop and programming books. 
 
 I've taken a big leap of faith on pursuing a new career  in programming because I love learning and creating.

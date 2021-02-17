@@ -67,7 +67,7 @@ html {
   grid-area: info;
   color:$brandtext;
   font-size: 1em;
-  font-family:cursive;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter ;
   padding: 40px;
   padding-top: 10px;
@@ -106,6 +106,7 @@ html {
    /* border-top: #ffffff solid 2px;*/
    font-weight: lighter;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 .big-show h1, .contact-show h1 {
   color: $brandColor;
@@ -205,14 +206,16 @@ nav .nav-links a :hover {
   color: rgba(0,0,0,0.6);
 }
 .navbar__link--active {
-  background-color: rgba(100, 7, 46, 0.6);
-  padding: 5px;
- 
+  text-decoration: underline;
 }
 nav .burger {
   font-size: 28px;
   display: none;
   cursor: pointer;
+}
+
+.project-1 {
+  background-image: url(./img/Screenshot\ \(2\).png);
 }
 
 
@@ -316,6 +319,22 @@ a.github {
   .about-show h1 {
     color: $brandColor;
   }
+  .navbar__link--active {
+    background-color: none;
+    padding: 0px;
+   
+  }
+  nav .nav-links a ::before {
+    background-color: none;
+  }
+  nav .nav-links a :hover {
+    color: none;
+  }
+
+  .big-show h1, .about-show h1, .contact-show h1 {
+    width: 90%;
+  }
+  
   
   
 }
@@ -350,6 +369,21 @@ a.github {
   }
   .about-container {
     height: 50vh;
+  }
+  .navbar__link--active {
+    background-color: none;
+    padding: 0px;
+   
+  }
+  nav .nav-links a ::before {
+    background-color: none;
+  }
+  nav .nav-links a :hover {
+    color: none;
+  }
+
+  .big-show h1, .about-show h1, .contact-show h1 {
+    width: 85%;
   }
   // .about-text-area2 {
   //   // position: relative;

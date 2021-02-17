@@ -20,7 +20,7 @@ function NavLinks() {
             <ul className="nav-links"style={{ transform: open ? "translateX(0px)" : "" }}>
                 
                 
-                <NavLink activeClassName="navbar__link--active" onClick={() => setOpen(!open)} exact to='/about' >
+                <NavLink activeClassName="navbar__link--active" onClick={() => setOpen(!open)} exact to='/blog' >
                     <li   >
                          Blog
                         </li> 
