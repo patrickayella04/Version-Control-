@@ -15,10 +15,11 @@ function ProjectText() {
             <li>
                     <a href="https://stark-wave-03944.herokuapp.com/login">
                         MERN stack study project in React!  </a> <br/>
-                        Contact-keeper application using json web tokens for route authentication, and usContext to manages state and actions.                 </li> 
-                <div className="project-1">
-                    
-                    </div>
+                        Contact-keeper application using json web tokens for route authentication, and usContext to manages state and actions.
+                        <img src="C:\Version-Control-\src\img\contact-keeper.png" alt=""/>              </li> 
+                {/* <div className="project-1">
+                    <img src="./img/contact-keeper.png" alt=""/>
+                    </div> */}
                         
 
             <li>
