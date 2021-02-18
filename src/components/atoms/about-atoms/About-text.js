@@ -6,7 +6,7 @@ function AboutText() {
     
     return (
         
-        <div className="text-area">
+        <div className="text-area text-about">
             <div className="container-about">
                 <p className="text story-text">
                 I'm a front-end web developer. I love to build things, solve problems, and collaborate ideas with others. Coding websites that have great functionality and scalability is key in creating better products. I enjoy finding new and reliable ways to improve my knowledge through continuous study and practice. 
