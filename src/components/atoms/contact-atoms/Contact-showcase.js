@@ -7,7 +7,7 @@ function ContactShowase() {
     return (
         
         <div className="big-show contact-show">
-                    <h1>Invent <br/>Onwards &amp; Upwards Inovation</h1>
+                    <h1>Contact</h1>
                 </div>
                  
 
