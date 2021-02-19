@@ -16,15 +16,15 @@ function ProjectText() {
                 <li >
                     
                     <a className="link-title" href="https://stark-wave-03944.herokuapp.com/login">
-                        View: MERN stack study project in React!
+                        View: MERN stack project!
                         </a>
                     <br />
-                        Contact-keeper application using json web tokens for route authentication, and usContext to manages state and actions.
+                        Sign up or sign in to this application to add and store all your contacts!
+                        
                         <br />
                     <img className="picture" src={pic} alt="" />
 
-                    <p>View Code:
-                        <a className="link-title" href="https://github.com/patrickayella04/contact-keeper"> Contact-Keeper
+                    <p>View Code:<a className="link-title" href="https://github.com/patrickayella04/contact-keeper"> Contact-Keeper
                         </a>
                     </p>
                                    
@@ -33,10 +33,10 @@ function ProjectText() {
 
             <li>
                     <a className="link-title" href="https://githubfinder0101.netlify.app">
-                        View: Study Project in React!
+                        View: API GitHub Finder project!
                          </a>
                     <br />
-                        Github Finder application using useContext and useEffect hooks.
+                        Find any github profile and the first five repositories in each one with this application!
                         <br />
                     <img className="picture" src={picGit} alt="" />
                     <p>View Code: <a className="link-title" href="https://github.com/patrickayella04/ReactTheory"> ReactTheroy - GitHub Finder</a></p>

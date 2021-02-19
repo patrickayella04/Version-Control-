@@ -48,7 +48,7 @@ html {
 }
 .about-container {
   background: url(./img/standing-white-t.JPG) no-repeat 0 -50px;
-  background-size: 50% ;
+  background-size: 48% ;
   background-position: center;
   
 }
@@ -211,9 +211,9 @@ nav .nav-links a:hover ::before {
 nav .nav-links a :hover {
   color: rgba(0,0,0,0.6);
 }
-.navbar__link--active {
-  text-decoration: underline;
-}
+// .navbar__link--active {
+//   text-decoration: underline;
+// }
 nav .burger {
   font-size: 28px;
   display: none;
@@ -225,6 +225,9 @@ img.picture {
 }
 .link-title {
   text-decoration: underline;
+}
+.mobile-home {
+  margin: 0 20% 0 20%;
 }
 
 
@@ -327,6 +330,7 @@ a.github {
   .about-show h1 {
     color: $brandColor;
   }
+  
   .navbar__link--active {
     background-color: none;
     padding: 0px;
@@ -407,10 +411,13 @@ a.github {
         "main"
         "info"
         "foot";
-}
-img.picture {
+  }
+  img.picture {
   height: 70px;
-}
+  }
+  .mobile-home {
+    margin: 0 auto 0 auto;
+  }
   // .about-text-area2 {
   //   // position: relative;
   //   // bottom: 130%;
@@ -422,11 +429,7 @@ img.picture {
   // .project-container {
   //   height: 40vh;
   // }
-  // .mobile-about {
-  //   // padding: 0;
-  //   // position: relative;
-  //   // top: -100px;
-  // }
+  
 
   // .container-about {
   //     position: relative;
