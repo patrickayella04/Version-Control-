@@ -15,7 +15,7 @@ function ProjectText() {
 
                 <li >
                     
-                    <a href="https://stark-wave-03944.herokuapp.com/login">
+                    <a className="link-title" href="https://stark-wave-03944.herokuapp.com/login">
                         View: MERN stack study project in React!
                         </a>
                     <br />
@@ -24,7 +24,7 @@ function ProjectText() {
                     <img className="picture" src={pic} alt="" />
 
                     <p>View Code:
-                        <a href="https://github.com/patrickayella04/contact-keeper"> Contact-Keeper
+                        <a className="link-title" href="https://github.com/patrickayella04/contact-keeper"> Contact-Keeper
                         </a>
                     </p>
                                    
@@ -32,14 +32,14 @@ function ProjectText() {
                 </li>        
 
             <li>
-                    <a href="https://githubfinder0101.netlify.app">
+                    <a className="link-title" href="https://githubfinder0101.netlify.app">
                         View: Study Project in React!
                          </a>
                     <br />
                         Github Finder application using useContext and useEffect hooks.
                         <br />
                     <img className="picture" src={picGit} alt="" />
-                    <p>View Code: <a href="https://github.com/patrickayella04/ReactTheory"> ReactTheroy - GitHub Finder</a></p>
+                    <p>View Code: <a className="link-title" href="https://github.com/patrickayella04/ReactTheory"> ReactTheroy - GitHub Finder</a></p>
                 </li>
             
             
