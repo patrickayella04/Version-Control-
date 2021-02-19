@@ -10,7 +10,7 @@ function AboutShowase() {
     return (
         
         <div className="big-show ">
-                <h1>Learning more <br/> &amp; The  Mission To Elevate</h1>
+                {/* <h1>See it &amp; <br/> Believe it </h1> */}
         </div>
 
             

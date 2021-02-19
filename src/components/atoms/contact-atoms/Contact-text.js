@@ -8,7 +8,7 @@ function ContactText() {
     
     return (
         
-        <div className="text-area">
+        <div className="text-area contact-text-area">
                    
             <div className="text contact-text">
                 <SocialFollow />

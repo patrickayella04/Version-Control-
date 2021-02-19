@@ -12,7 +12,7 @@ html {
 .body {
   
   display:grid;
-  grid-template-rows: 1fr 70vh auto 1fr;
+  grid-template-rows: 1fr 60vh auto 1fr;
   
   grid-template-areas: 
   "nav"
@@ -50,11 +50,13 @@ html {
   background: url(./img/standing-white-t.JPG) no-repeat 0 -50px;
   background-size: 50% ;
   background-position: center;
+  
 }
 .contact-container {
   background: url(./img/pexels-negative-space-33999.jpg) no-repeat 0 -50px;
   background-size: 100% ;
   background-position: center;
+  
 }
 .project-container {
   background: url(./img/pexels-veeterzy-114979.jpg) no-repeat 0 -50px;
@@ -67,14 +69,16 @@ html {
   grid-area: info;
   color:$brandtext;
   font-size: 1em;
-  font-family:cursive;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter ;
   padding: 40px;
   padding-top: 10px;
 
   text-align: center;
   line-height: 50px;
+  margin: 0 auto 0 auto;
 }
+
 
 .story-text {
   margin-left: 20%;
@@ -93,6 +97,10 @@ html {
   font-weight: lighter;
   font-size: 0.6em;
 }
+.contact-text-area {
+  padding-bottom: 45px;
+}
+
 /*//////////////////////////////////////////////////////////////////////////////*/
 .big-show h1, .about-show h1, .contact-show h1 {
   align-content: center;
@@ -106,6 +114,7 @@ html {
    /* border-top: #ffffff solid 2px;*/
    font-weight: lighter;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 .big-show h1, .contact-show h1 {
   color: $brandColor;
@@ -115,6 +124,7 @@ html {
 .home-show h1, .about-show h1 {
   color: #ffffff;
 }
+
 
 .big-show, .about-show, .about-contact {
   /* min-height: 500px; */
@@ -143,10 +153,7 @@ nav .logo {
   border: none;
   outline: none;
   padding: 10px;
-  
- 
   position: relative;
-  
 }
 nav .logo::after  {
   content: '';
@@ -205,14 +212,19 @@ nav .nav-links a :hover {
   color: rgba(0,0,0,0.6);
 }
 .navbar__link--active {
-  background-color: rgba(100, 7, 46, 0.6);
-  padding: 5px;
- 
+  text-decoration: underline;
 }
 nav .burger {
   font-size: 28px;
   display: none;
   cursor: pointer;
+}
+
+img.picture {
+  height: 130px;
+}
+.link-title {
+  text-decoration: underline;
 }
 
 
@@ -256,11 +268,12 @@ a.github {
 // VLog Page
 
 .vlog-list li {
-  border: 1px solid grey;
+  border: 1px solid grey ;
   margin: 10px;
   text-align: left;
   line-height: 50px;
   padding-left: 10px;
+  box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
 }
  
 /*//////////////////////////////////////////////////////////////////////////////*/
@@ -310,12 +323,26 @@ a.github {
     font-weight: lighter;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  .contact-text {
-    padding-bottom: 150px;
-  }
+  
   .about-show h1 {
     color: $brandColor;
   }
+  .navbar__link--active {
+    background-color: none;
+    padding: 0px;
+   
+  }
+  nav .nav-links a ::before {
+    background-color: none;
+  }
+  nav .nav-links a :hover {
+    color: none;
+  }
+
+  .big-show h1, .about-show h1, .contact-show h1 {
+    width: 90%;
+  }
+  
   
   
 }
@@ -324,6 +351,8 @@ a.github {
     font-size: 0.8em;
     line-height: 20px;
     padding: 20px;
+    // margin-left: auto;
+    // margin-right: auto;
   }
   .email-social {
     padding: 10px;
@@ -348,9 +377,40 @@ a.github {
   .home-show-areas {
     height: 40vh;
   }
-  .about-container {
+  .about-container, .home-show-areas {
     height: 50vh;
   }
+  .navbar__link--active {
+    background-color: none;
+    padding: 0px;
+   
+  }
+  nav .nav-links a ::before {
+    background-color: none;
+  }
+  nav .nav-links a :hover {
+    color: none;
+  }
+
+  .big-show h1, .about-show h1, .contact-show h1 {
+    width: 85%;
+  }
+  .contact-text-area, .project-text-area {
+    margin-bottom: 14%;
+  }
+
+  .body {
+    display: grid;
+    grid-template-rows: 1fr 49vh auto 1fr;
+    grid-template-areas:
+        "nav"
+        "main"
+        "info"
+        "foot";
+}
+img.picture {
+  height: 70px;
+}
   // .about-text-area2 {
   //   // position: relative;
   //   // bottom: 130%;

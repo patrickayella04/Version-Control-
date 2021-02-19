@@ -7,7 +7,7 @@ function ContactTextArea() {
     
     return (
        <>
-        <div className="text-area">
+        <div className="text-area contact-text-area">
                     <ContactText />
             </div>
        </>

@@ -7,7 +7,7 @@ function ProjectTextArea() {
     
     return (
      <>
-        <div className="text-area">
+        <div className="text-area project-text-area">
                 <ProjectText />
                 
             </div>
