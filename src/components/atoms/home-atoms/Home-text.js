@@ -6,7 +6,7 @@ function HomeText() {
     
     return (
         
-        <div className="text-area mobile-about">
+        <div className="text-area mobile-home">
 
             
             
