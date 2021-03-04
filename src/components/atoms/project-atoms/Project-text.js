@@ -19,10 +19,10 @@ function ProjectText() {
                         View: Weather project!
                          </a>
                     <br />
-                        Use this application to find out what weather will be!
+                        Use this application to check the weather!
                         <br />
                     <img className="picture" src={picWeather} alt="" />
-                    <p>View Code: <a className="link-title" href="https://github.com/patrickayella04/Weather-and-News"> Weater-and-News </a></p>
+                    <p>View Code: <a className="link-title" href="https://github.com/patrickayella04/Weather-and-News"> Weather-and-News </a></p>
                 </li>
             
 
