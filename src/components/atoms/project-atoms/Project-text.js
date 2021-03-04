@@ -1,7 +1,7 @@
 import React from 'react';
 import pic from './Picture/contactKeeper.jpg';
 import picGit from './Picture/gitHubFinder.jpg';
-import picWeather from './Picture/Screenshot(7).png';
+import picWeather from './Picture/weatherApp.png';
 
 
 function ProjectText() {
