@@ -11,8 +11,11 @@ html {
 }
 .body {
   
+    
+  
+  
   display:grid;
-  grid-template-rows: 1fr 60vh auto 1fr;
+  grid-template-rows: 1fr 60vh auto 0.95fr;
   
   grid-template-areas: 
   "nav"
@@ -98,7 +101,7 @@ html {
   font-size: 0.6em;
 }
 .contact-text-area {
-  padding-bottom: 45px;
+  padding-bottom: 43.5px;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////*/
@@ -280,8 +283,44 @@ a.github {
 }
  
 /*//////////////////////////////////////////////////////////////////////////////*/
-@media all and (max-width: 768px) {
+
+@media (max-width: 1024px) {
+  .contact-text-area {
+    margin: 0 auto 7.5vw auto;
+
+  }
+  .about-container {
+    background-size: 80%;
+  }
+  .about-text-area {
+    margin: 0 auto 5.3vw auto;
+  }
   
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width: 768px) {
+
+  .about-text-area {
+    margin: 0 auto 0vw auto;
+  }
+
+  .contact-text-area {
+    margin: 0 auto 1.3vw auto;
+  }
+
+  .text-about {
+    padding: 15px;
+    line-height: 30px;
+  }
+ 
   nav .burger {
     display:block;
   }
@@ -351,6 +390,18 @@ a.github {
   
 }
 @media (max-width: 420px) {
+
+  .about-text-area {
+    margin: 0 auto 0.9vw auto;
+  }
+  .contact-text-area {
+    margin-bottom: 13.9vw;
+  }
+
+
+
+
+
   .text-area {
     font-size: 0.8em;
     line-height: 20px;
@@ -399,7 +450,7 @@ a.github {
   .big-show h1, .about-show h1, .contact-show h1 {
     width: auto;
   }
-  .contact-text-area, .project-text-area {
+  .project-text-area {
     margin-bottom: 14%;
   }
 
@@ -418,22 +469,5 @@ a.github {
   .mobile-home {
     margin: 0 auto 0 auto;
   }
-  // .about-text-area2 {
-  //   // position: relative;
-  //   // bottom: 130%;
-  //   // height: min-content;
-  //   // height: 100px;
-
-  // }
-  
-  // .project-container {
-  //   height: 40vh;
-  // }
-  
-
-  // .container-about {
-  //     position: relative;
-  //     top: -px;
-  // }
   
 }
