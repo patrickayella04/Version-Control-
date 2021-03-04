@@ -1,6 +1,7 @@
 import React from 'react';
 import pic from './Picture/contactKeeper.jpg';
 import picGit from './Picture/gitHubFinder.jpg';
+import picWeather from './Picture/weatherApp.png';
 
 
 function ProjectText() {
@@ -12,6 +13,18 @@ function ProjectText() {
             
             
             <ul className="vlog-list">
+
+            <li>
+                    <a className="link-title" href="https://dazzling-johnson-b9c1d5.netlify.app/">
+                        View: Weather project!
+                         </a>
+                    <br />
+                        Use this application to check the weather!
+                        <br />
+                    <img className="picture" src={picWeather} alt="" />
+                    <p>View Code: <a className="link-title" href="https://github.com/patrickayella04/Weather-and-News"> Weather-and-News </a></p>
+                </li>
+            
 
                 <li >
                     
