@@ -2,6 +2,7 @@ import React from 'react';
 import pic from './Picture/contactKeeper.jpg';
 import picGit from './Picture/gitHubFinder.jpg';
 import picWeather from './Picture/weatherApp.png';
+import picStripe from './Picture/stripepic.png';
 
 
 function ProjectText() {
@@ -13,6 +14,16 @@ function ProjectText() {
             
             
             <ul className="vlog-list">
+            <li>
+                    <a className="link-title" href="https://buy-this-book.netlify.app/">
+                        View: Stripe project!
+                         </a>
+                    <br />
+                        Use this application to buy a book!
+                        <br />
+                    <img className="picture" src={picStripe} alt="" />
+                    <p>View Code: <a className="link-title" href="https://github.com/patrickayella04/Purchase-This-Book"> Purchase-This-Book </a></p>
+                </li>
 
             <li>
                     <a className="link-title" href="https://dazzling-johnson-b9c1d5.netlify.app/">
