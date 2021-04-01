@@ -11,6 +11,16 @@ function HomeText() {
             
             
             <ul className="vlog-list">
+            <li>
+                    <a className="link-title"  href="https://youtu.be/iS8bsukvdBk">
+                        Rational Programming Ep 11  </a> <br/>
+                        Applying my skills in my weather and e-commerce applications! 
+                </li>
+            <li>
+                    <a className="link-title"  href="https://youtu.be/IsQvOix4Uwk">
+                        Rational Programming Ep 10  </a> <br/>
+                        Learning how to incorporate useContext and useReducer! 
+                </li>
             
             <li>
                     <a className="link-title"  href="https://youtu.be/0sexvvpj6Rs">
