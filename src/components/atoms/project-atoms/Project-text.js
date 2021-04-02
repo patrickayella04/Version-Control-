@@ -26,7 +26,7 @@ function ProjectText() {
                 </li>
 
             <li>
-                    <a className="link-title" href="https://dazzling-johnson-b9c1d5.netlify.app/">
+                    <a className="link-title" href="https://patricks-weather.netlify.app/">
                         View: Weather project!
                          </a>
                     <br />
