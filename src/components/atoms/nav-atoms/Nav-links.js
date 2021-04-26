@@ -22,7 +22,7 @@ function NavLinks() {
                 
                 <NavLink activeClassName="navbar__link--active" onClick={() => setOpen(!open)} exact to='/blog' >
                     <li   >
-                         Blog
+                         VLog
                         </li> 
                 </NavLink>  
                 
